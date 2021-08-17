@@ -1,0 +1,58 @@
+.info-defaultContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-default {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &-title {
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+  };
+  &-img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  };
+}
+
+.info-item {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+  &-desc {
+      z-index: 2;
+  }
+  &-title {
+    margin: 0 0 20px 0;
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 300;
+  };
+  &-text {
+    margin: 0 0 0 0;
+    font-size: 14px;
+  };
+  &-number {
+    font-size: 200px;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    position: relative;
+    color: silver;
+    opacity: 1;
+  };
+  &-coverNumber {
+    position: absolute;
+    bottom: 18%;
+    right: 0;
+  }
+}
